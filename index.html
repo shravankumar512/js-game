@@ -17,7 +17,7 @@
         }
 
         .container {
-            flex: 0 0 32%;
+            flex: 0 0 24%;
             margin-bottom: 5px;
             height: 150px;
             position: relative;
@@ -92,7 +92,12 @@
         Start the Game
     </h1>
     <div id="form">
-        <input type="number" name="num" id="num">
+        <select name="num" id="num">
+            <option value="4">Easy</option>
+            <option value="8">Medium</option>
+            <option value="12">High</option>
+            <option value="16">Don't do it</option>
+        </select>
         <button onClick="onStart(num.value)">start</button>
     </div>
     <br><br>
