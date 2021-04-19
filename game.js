@@ -57,3 +57,5 @@ function flip(num, index) {
     }, 1000);
 
 }
+
+// end of line
